@@ -41,31 +41,3 @@ class TTTOneTests: XCTestCase {
         XCTAssertEqual(grid.getTiles(), ["X", "", "", "", "", "", "", "", ""])
     }
 }
-
-enum Tile {
-    case Empty(Int);
-    case Full(Player, Int);
-    
-    func isEmpty() -> Bool {
-        switch .self {
-        case <#pattern#>:
-            <#code#>
-        default:
-            <#code#>
-        }
-    }
-}
-
-enum Player {
-    case X;
-    case O;
-    
-    func opponent() -> Player {
-        switch .X {
-        case <#pattern#>:
-            <#code#>
-        default:
-            <#code#>
-        }
-    }
-}
