@@ -10,25 +10,62 @@ import XCTest
 @testable import TTTOne
 
 class TTTOneTests: XCTestCase {
-
+    
+    let x = "X"
+    let o = "O"
+    let empty = ""
+    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
-
+    
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    func testPlaceMark() {
+        var grid: Grid
+        grid = Grid()
+        
+        grid.placeMark(position: 0)
+        
+        XCTAssertEqual(grid.getTiles(), ["X", "", "", "", "", "", "", "", ""])
     }
+    
+    func testIsFull() {
+        var grid: Grid
+        grid = Grid()
+        
+        grid.placeMark(position: 0)
+        
+        XCTAssertEqual(grid.getTiles(), ["X", "", "", "", "", "", "", "", ""])
+    }
+}
 
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+enum Tile {
+    case Empty(Int);
+    case Full(Player, Int);
+    
+    func isEmpty() -> Bool {
+        switch .self {
+        case <#pattern#>:
+            <#code#>
+        default:
+            <#code#>
         }
     }
+}
 
+enum Player {
+    case X;
+    case O;
+    
+    func opponent() -> Player {
+        switch .X {
+        case <#pattern#>:
+            <#code#>
+        default:
+            <#code#>
+        }
+    }
 }
