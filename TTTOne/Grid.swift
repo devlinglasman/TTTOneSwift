@@ -12,11 +12,18 @@ public class Grid {
     
     var tiles = ["", "", "", "", "", "", "", "", ""]
     
-    func placeMark(position: Int) -> Void {
-        tiles[position] = "X"
+    func placeMark(position: Int, mark: String) -> Void {
+        tiles[position] = mark
     }
     
     func getTiles() -> Array<String> {
         return tiles
+    }
+    
+    func isFull() -> Bool {
+        if tiles.contains("") {
+        return false
+        }
+        return true
     }
 }

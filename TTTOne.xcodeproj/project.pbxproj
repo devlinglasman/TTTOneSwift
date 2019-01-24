@@ -12,7 +12,7 @@
 		C8840D3221F7871F00725DBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8840D3021F7871F00725DBC /* Main.storyboard */; };
 		C8840D3421F7872000725DBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8840D3321F7872000725DBC /* Assets.xcassets */; };
 		C8840D3721F7872000725DBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8840D3521F7872000725DBC /* LaunchScreen.storyboard */; };
-		C8840D4221F7872000725DBC /* TTTOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8840D4121F7872000725DBC /* TTTOneTests.swift */; };
+		C8840D4221F7872000725DBC /* GridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8840D4121F7872000725DBC /* GridTests.swift */; };
 		C8840D4D21F7872000725DBC /* TTTOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8840D4C21F7872000725DBC /* TTTOneUITests.swift */; };
 		C8840D5B21F788DA00725DBC /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8840D5A21F788DA00725DBC /* Grid.swift */; };
 /* End PBXBuildFile section */
@@ -50,7 +50,7 @@
 		C8840D3621F7872000725DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8840D3821F7872000725DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8840D3D21F7872000725DBC /* TTTOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8840D4121F7872000725DBC /* TTTOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTOneTests.swift; sourceTree = "<group>"; };
+		C8840D4121F7872000725DBC /* GridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTests.swift; sourceTree = "<group>"; };
 		C8840D4321F7872000725DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8840D4821F7872000725DBC /* TTTOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8840D4C21F7872000725DBC /* TTTOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTOneUITests.swift; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		C8840D4021F7872000725DBC /* TTTOneTests */ = {
 			isa = PBXGroup;
 			children = (
-				C8840D4121F7872000725DBC /* TTTOneTests.swift */,
+				C8840D4121F7872000725DBC /* GridTests.swift */,
 				C8840D4321F7872000725DBC /* Info.plist */,
 			);
 			path = TTTOneTests;
@@ -315,7 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8840D4221F7872000725DBC /* TTTOneTests.swift in Sources */,
+				C8840D4221F7872000725DBC /* GridTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
